@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="9525" systemVersion="14F27" minimumToolsVersion="Automatic">
+    <entity name="Department" syncable="YES">
+        <attribute name="deptid" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Dgfg" syncable="YES">
+        <attribute name="nam" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <entity name="Employee" representedClassName="Employee" syncable="YES">
+        <attribute name="dob" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="empid" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="empname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="sal" optional="YES" attributeType="String" syncable="YES"/>
+    </entity>
+    <elements>
+        <element name="Department" positionX="-9" positionY="63" width="128" height="60"/>
+        <element name="Employee" positionX="-63" positionY="-18" width="128" height="105"/>
+        <element name="Dgfg" positionX="-27" positionY="36" width="128" height="60"/>
+    </elements>
+</model>
